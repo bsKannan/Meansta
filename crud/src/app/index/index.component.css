@@ -1,0 +1,11 @@
+div{
+    width:800px;
+    text-align: center;
+}
+
+#tab {
+    background-color: rgb(65, 65, 196);
+    opacity: 0.5;
+    color: whitesmoke;
+    font-size: 20px;
+}
