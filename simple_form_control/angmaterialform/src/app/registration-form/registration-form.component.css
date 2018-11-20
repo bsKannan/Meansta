@@ -1,0 +1,45 @@
+mat-card {    
+    width: 70%;    
+    margin: 2em auto;    
+    text-align: right;  
+    text-align: -webkit-center;
+    margin-right: 10%;
+    /* margin-left: 20%; */
+}  
+mat-toolbar-row {
+    justify-content: space-between;
+}
+mat-card-title {
+    width: 50%;
+}
+form {    
+    /* min-width: 100px;    
+    max-width: 300px;     */
+    margin-left: 15%;  
+    /* padding: 10px;   */
+} 
+
+.full-width {
+    margin-right: 20%;
+    width: 50%;
+}
+
+table {
+    margin-left: -30%;
+}
+.content-center {
+    text-align: -webkit-center;
+}
+
+.matcard-content {
+    padding-left: 10px;
+}
+
+.myform {
+    margin-right: 20%;
+    
+}
+input[type=text], select {
+   
+    resize: vertical;
+}
