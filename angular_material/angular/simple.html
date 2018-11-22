@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+ 
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" /> -->
+    <script src="main.js"></script>
+</head>
+<body>
+
+    <!-- <form name="form1"> -->
+        <!-- Enter name:<input type="text" name="name"/>
+        <input type="button" onclick="printvalue()" value="print name"> -->
+
+        <!-- Enter number:<input type="text" id="number" name="number" />
+        <input type="button" value="cube" onclick="cube()">  -->
+<!-- 
+        Male: <input type="radio" name="gender" value="male">
+        Female: <input type="radio" name="gender" value="Female">
+
+        <input type="button" onclick="totalelements()" value="TotalGenders"> -->
+
+<!-- 
+        <h2>This is h2 tag</h2>  
+        <h2>This is h2 tag</h2>  
+        <h3>This is h3 tag</h3>  
+        <h3>This is h3 tag</h3>  
+        <h3>This is h3 tag</h3>  
+        <button onclick="counth2()">count h2</button>  
+        <button onclick="counth3()">count h3</button>  -->
+
+    <!-- </form> -->
+
+    <!-- <form name="myform" method="post" action="abs.jsp" onsubmit="return validateform()">
+        Name:<input type="text" name="name"><br/>
+        Password:<input type="password" name="password" /> <br>
+        <input type="submit" value="register">
+    </form>
+     -->
+
+     <form name="f1" action="reg.js" onsubmit="return mathpass()">
+         Password:<input type="password" name="password"/>
+         Re-enter Password:<input type="password" name="password2"/>
+         <input type="submit">
+     </form>
+
+
+    <script type="text/javascript"> 
+    function mathpass() {
+        var firstpwd = document.f1.password.value;
+        
+    }
+    
+    // function validateform() {
+    //     var name=document.myform.name.value;
+    //     var password=document.myform.password.value;
+
+
+    //     if(name==null && name==''){
+    //         alert("name can't be blank")
+    //         return false;
+    //     }else if(password.length<6) {
+    //         alert("Password must be at least 6 chars long");
+    //         return false
+    //     }
+    // }
+
+
+
+        // function counth2(){  
+        // var totalh2=document.getElementsByTagName("h2");  
+        // alert("total h2 tags are: "+totalh2.length);  
+        // }  
+        // function counth3(){  
+        // var totalh3=document.getElementsByTagName("h3");  
+        // alert("total h3 tags are: "+totalh3.length);  
+        // }  
+  
+    
+    // function printvalue() {
+    //     var name = document.form1.name;
+    //     console.log("welcome: " + name.value);
+    // }
+
+    // function cube() {
+    //     var number = document.getElementById('number').value;
+    //     console.log(number*number*number);
+    // }
+
+    // function totalelements() {
+    //     var allgender = document.getElementsByName('gender');
+    //     console.log("Total Genders " + allgender.length) 
+    // }
+    
+    </script>
+</body>
+</html>

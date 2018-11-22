@@ -1,6 +1,12 @@
-<!--The content below is only a placeholder and can be replaced.-->
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <button mat-button routerLink="/home" *ngIf="a">Home</button>
+    <button mat-button routerLink="/user" *ngIf="b">User</button>
+    <span class="spacer"></span>
+    <button mat-button routerLink="/register" *ngIf="a">Register</button>
+    <button mat-button routerLink="/login" *ngIf="a">Login</button>
+    <button mat-button routerLink="/login" *ngIf="b">Logout</button>
+  </mat-toolbar-row>
+</mat-toolbar>
 
-<app-nav-bar></app-nav-bar>
 <router-outlet></router-outlet>
-
-
